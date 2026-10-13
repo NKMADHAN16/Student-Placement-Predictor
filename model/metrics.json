@@ -1,0 +1,29 @@
+{
+  "accuracy": 0.7583,
+  "f1_score": 0.7929,
+  "roc_auc": 0.8679,
+  "confusion_matrix": [
+    [
+      71,
+      30
+    ],
+    [
+      28,
+      111
+    ]
+  ],
+  "feature_importance": {
+    "CGPA": 0.1026,
+    "IQ": 0.1807,
+    "Aptitude_Score": 0.1114,
+    "Communication_Skill": 0.1547,
+    "Internships": 0.0708,
+    "Projects": 0.0446,
+    "Technical_Skill": 0.1863,
+    "Backlogs": 0.1099,
+    "Extra_Curricular": 0.0104,
+    "Certifications": 0.0285
+  },
+  "n_train": 960,
+  "n_test": 240
+}
